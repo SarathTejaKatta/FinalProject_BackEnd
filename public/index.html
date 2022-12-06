@@ -1,14 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-<body>
-    
-    <h1>This is Home Page</h1> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sarath Teja Katta</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+    </head>
+    <body class="main">
+        <div class="container">
+            <header id="header">
+                <h1 id="aligncenter">Sarath Teja Katta</h1>
+            </header>
+            <nav id="navbar">
+                <a class="a" href="#header">Home</a>&ensp;&ensp;
+                <a class="a" href="#a1">About Me</a>&ensp;&ensp;
+                <a class="a" href="#b1">Career Objective</a>&ensp;&ensp;
+                <a class="a" href="#two">Skills</a>&ensp;&ensp;
+                <a class="a" href="#three">Project</a>&ensp;&ensp;
+                <a class="a" href="#four">Education</a>&ensp;&ensp;
+                <a class="a" href="#five">Acheivements & Blogs</a>&ensp;&ensp;
+                <a class="a" href="#six">Interests</a>&ensp;&ensp;
+                <a class="a" href="#footer">Footer</a>&ensp;&ensp;
+            </nav> 
 
-</body>
+            <div  id="a1">
+                <h1>About me</h1><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5f7IEhOAPLK6d7ecTb04OIY5Xieq8Eb8zrIdGCRziN8nhgQbbT38a2zRszAtX_BEppeE&usqp=CAU" alt="profile" height="160" width="160" style="border-radius: 50%">
+                <p id="text">Sarath Teja Katta<br>
+                kattasarathteja2222@gmail.com</p>
+            </div>
+            <div  id="b1">
+                <h1 id="aligncenter">Career Objective</h1>
+                <p>To work in a challenging atmosphere by exhibiting my skills with
+                utmost sincerity and dedicated smart work for the growth of 
+                    our esteemed organization along with mine.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>            
+            <div id="two">
+                <h1>Skills</h1>
+            <ul><P>C, Java, Python,Oracle, MySQl,DB2, Informatica Powercenter</P></ul>
+            </div>
+
+            <div id="three">
+                <h1>Project</h1>
+                <ul>Project Name: Medicare, Duration: June-2019 to Dec-2021</ul> 
+                <ul>Medicare is a national health insurance program in the United States, begun in 1966 under the Social Security
+                    Administration (SSA) and now administrated by the Centers for Medicare and Medicaid Services (CMS).
+                    It primarily provides health insurance for Americans aged 65 and older, for some younger people with 
+                    disability status as determined by the Social Security Administration, as well as people with end stage
+                    renal disease. </ul>
+                <ul>Currently Medicare insurance/claims are processed with the help of Mainframe System and DB2 Database. 
+                    Medicare wants to migrate the insurance processing from current system to Informatica Powercenter with Oracle Database.</ul>
+            </div> 
+
+            <div id="four">
+            <h1> Education</h1>
+                    <ul>Currently Studying my maters at University of New Haven</ul>
+                    <ul>2015-2019 Bachelors in Computer Sceinc at Gudlavalleru Engineering college</ul>
+            </div>
+
+            <div id="five">
+                <h1>Achievements & Blogs</h1>
+                <ul>Certificate for efficiently learning Informatica Powercenter and contributing in Project Deliverables (Wipro Achievement) and received a lot of appreciations from my Technical Lead and QA Team.</ul>
+                <ul>Awarded with 1stprize at QIS College of Engineering and Technology for the paper presentation on Progressive Web Apps. </ul>
+                <ul>Awarded with 1stPrize in Chess Competition at QIS College of Engineering and Technology on the eve of QIS-FEST 2018.</ul>
+                <ul> Achieved Gold Level in SQL in Hacker Rank.</ul>
+                <ul>Won 1st Prize in SUDOKU conducted on the eve of 17th Anniversary celebrations of COMITY, an association of CSE Students held on 4th April 2018 in GEC.</ul> 
+                <ul>Awarded with 1st prize in the spot event Code Sense at the National Level Technical Contest held as part of GECFEST’19</ul>
+                <ul>No Blogs yet.</ul>
+                
+
+
+            </div> 
+            <div id="six">
+                <h1>Interests</h1>
+                <ul>Playing Chess, Solving Sudoko Puzzles, Reading Books</ul>
+            </div>
+            <footer id="footer">
+                    <a href="https://www.linkedin.com/"><img src="https://cdn-icons-png.flaticon.com/512/38/38669.png" alt="linkedin" height="35" width="35"></a>
+                    <a href="https://www.facebook.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnpo7QJsaz8lnEKE4DBdXAlGgWaYsPz_rFhA&usqp=CAU" alt="facebook"  height="35" width="35"></a>
+                    <a href="https://twitter.com/"><img src="https://cdn-icons-png.flaticon.com/512/60/60580.png" alt="twitter"  height="35" width="35"></a>
+            </footer>   
+    </div> 
+    </body>
+    <style>
+        
+.main{
+   padding: auto;
+}
+.container{
+    width:100%;
+    display:grid;
+    margin: 0%;
+    grid-template-rows:0.2fr 0.2fr 0.6fr 0.3fr 0.5fr 0.5fr 1fr 0.2fr 0.1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "a1 b1"   
+    "two two"
+    "three three"
+    "four four"
+    "five five"
+    "six six"
+    "footer footer";
+    gap:0.2em;
+}
+#header{
+    background-color:rgb(220, 255, 208);
+    grid-area: header;
+}
+#navbar{
+    height: auto;
+    background-color:rgb(246, 249, 255);
+    padding-top: 20px;  
+    padding-bottom: 20px;  
+    grid-area:navbar;
+}
+#aligncenter{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+}
+#a1{
+    background-color:rgb(217, 250, 251);
+    grid-area: a1;
+    text-align: center;
+    align-items: center;
+}
+#b1{
+    background-color:rgb(219, 213, 251);
+    grid-area: b1;
+}
+#two{
+    background-color:rgb(211, 240, 255);
+    grid-area: two;
+}
+#three{
+    background-color:rgb(247, 241, 245);
+    grid-area: three;
+}
+#four{
+    background-color:rgb(252, 249, 241);
+    grid-area: four;
+}
+#five{
+    background-color:rgb(217, 255, 221);
+    grid-area: five;
+}
+#six{
+    background-color:rgb(240, 243, 255);
+    grid-area: six;
+}
+#footer{
+    background-color:rgb(220, 251, 252);
+    text-align:right;
+    padding-right: 10%;
+    padding-top: 5px;
+    grid-area:footer;
+    align-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px){
+    .container{
+        grid-template-columns: 1fr; 
+        grid-template-rows:0.2fr 0.2fr 0.3fr 0.3fr 0.3fr 0.4fr 0.3fr 1fr 0.3fr 0.09fr;
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "a1"
+        "b1"   
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "footer";
+        
+        gap:0.1em;
+
+    }
+}
+
+
+    </style>
 </html>
